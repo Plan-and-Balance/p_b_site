@@ -209,6 +209,20 @@ p {
   color: var(--muted);
 }
 
+.site-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 820px) {
   .header-inner {
     flex-direction: column;
